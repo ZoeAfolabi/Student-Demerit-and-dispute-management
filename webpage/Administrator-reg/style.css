@@ -7,6 +7,7 @@ body{
 	font-family: sans-serif;
 	background: #f2f2f2;
 }
+
 .login-box{
 	width: 320px;
 	height: 420px;
@@ -60,6 +61,7 @@ body{
 	border: none;
 	outline: none;
 	height: 40px;
+	width: 1000px;
 	color: #fff;
 	font-size: 18px;
 	background: #000;
@@ -68,7 +70,7 @@ body{
 	margin-top: 30px;
 }
 .login-box input[type="submit"]:hover{
-	background: #ffc107;
+	background: #230f92;
 	color: #000;
 }
 .login-box a{
@@ -81,7 +83,7 @@ body{
 	justify-content: center;
 }
 .login-box a:hover{
-	color: #ffc107;
+	color: #230f92;
 }
 
 .login-box a span{
@@ -96,4 +98,8 @@ body{
 .login-box a span:before{
 	content: '';
 	position: absolute
+}
+
+.login-box .login-select{
+	text-decoration: none;
 }
